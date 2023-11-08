@@ -29,18 +29,18 @@ Alternatively you can download the repo as a zip from the link in the above comm
 ```
 python TwoWayMesgServer.py <PORTNUMBER>
 ```
-replace <PORTNUMBER> with a value, any should work . In my demo, I use "111", just remember the value you choose as you will need it later when launching the client. 
+replace PORTNUMBER with a value, any should work . In my demo, I use "111", just remember the value you choose as you will need it later when launching the client. 
 
 If you completed this step correctly , the console should display "waiting for a client..."
 
 * Step 3: In a separate terminal window , launch the client with the below command
 
 ```
-python TwoWayMesgServer.py <SERVERNAME> <SERVERPORT>
+python TwoWayMesgClient.py <SERVERNAME> <SERVERPORT>
 ```
-SERVERNAME should be localhost unless you renamed, and SERVERPORT is whatver value you used for <PORTNUMBER> while completing step 2
+SERVERNAME should be localhost unless you renamed, and SERVERPORT is whatver value you used for PORTNUMBER while completing step 2
 
-If done correctly , the client window should display "Connected to Server at ( <SERVERNAME>, <SERVERPORT>).
+If done correctly , the client window should display "Connected to Server at ( SERVERNAME, SERVERPORT).
 
 This should get the application up and running , send messages between the two terminals as much as needed, and one completed use CNTRL^D on Mac or CNTRL^Z + # on Windows in either terminal, which will disconnect the sockets and terminate the program.
 
@@ -50,7 +50,7 @@ If you are having trouble getting the two terminals to connnect , remember that 
 Blaise Moses (blaisemoses2001@gmail.com)
 
 ## License
-This project is licensed under the Apache License
+This project is licensed under the Apache 2.0 License
 
 ## Acknowledgments
 I would like to acknowledge my CSCE416 professor , Nelakuditi Srihari, for the written and coded examples in class that allowed me to understand the structure and syntax enough to complete this project.
