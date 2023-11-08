@@ -47,9 +47,7 @@ This should get the application up and running , send messages between the two t
 ## Help
 If you are having trouble getting the two terminals to connnect , remember that you MUST launch the server first and you must use the same portnumber in both commands, otherwise the client will fail to connect.
 ## Authors
-
-Contributors names and contact info
-[Blaise Moses](blaisemoses2001@gmail.com)
+Blaise Moses (blaisemoses2001@gmail.com)
 
 ## License
 This project is licensed under the Apache License
